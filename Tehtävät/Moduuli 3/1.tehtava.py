@@ -7,3 +7,4 @@ if x < 37:
     print(f"Laske kuha takaisin järveen. Kuhan pitäisi olla vähintään 37cm. Teidän kuhasta puuttuu senttejä: {kuha_pituus}")
 else:
     print("Kuha on oikean pituinen!")
+
