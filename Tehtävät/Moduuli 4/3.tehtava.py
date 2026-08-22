@@ -11,8 +11,6 @@ while True:
     kysymys_luku = int(kysymys_luku)
     numerot.append(kysymys_luku)
 
-## jos tätä tehtävää joku lukee niin parempi tehdä listan kanssa
-## kun alkaa manuaalisesti vertaamaan numeroita vaikka listat tulevat parin moduulin päästä.
 
 
 
