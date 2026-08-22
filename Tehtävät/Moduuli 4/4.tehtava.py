@@ -1,13 +1,12 @@
 ## 4. Tehtävä
 import random
 
-satunnainen_luku = (random.randint(0, 10))
-oikea_luku = satunnainen_luku
+satunnainen_luku = (random.randint(1, 10))
 
 while True:
     kysymys = int(input("Kokonaisluku: "))
 
-    if kysymys == oikea_luku:
+    if kysymys == satunnainen_luku:
         print("Oikea luku!")
         break
     elif kysymys > satunnainen_luku:
