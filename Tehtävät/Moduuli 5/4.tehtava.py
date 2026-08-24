@@ -9,6 +9,6 @@ for i in range(1, 5+1):
     numero += 1
 
 for tulostus in kaupungin_nimet:
-    print(tulostus)
+    print(f"{tulostus}")
 
 
