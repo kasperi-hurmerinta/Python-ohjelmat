@@ -1,19 +1,10 @@
 ## 3. Tehtävä
 
-alkuluku_kysymys = int(input("Kokonaisluku: "))
+alkuluku_kysymys = int(input("Luku: "))
 
-jakaja = 2
-alkuluku = True
-
-if alkuluku_kysymys > 1:
-    alkuluku = False
-    for i in range(alkuluku_kysymys - 2):
-        if alkuluku_kysymys % jakaja == 0:
-            alkuluku = False
-
-        jakaja += 1
-
-if alkuluku == True:
-    print("Yees mään")
+for i in range(2, alkuluku_kysymys):
+    if alkuluku_kysymys % i == 0:
+        print("Naa mään")
+        break
 else:
-    print("No määän")
+    print("Yee mään")
