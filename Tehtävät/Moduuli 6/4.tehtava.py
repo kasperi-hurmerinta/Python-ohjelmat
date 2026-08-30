@@ -1,14 +1,29 @@
 ## 4. Tehtävä
 
-kaupungin_nimet = []
-numero = 1
+lista = []
 
-for i in range(1, 5+1):
-    anna_nimet = input(f"Anna {numero}. kaupungin nimet: ")
-    kaupungin_nimet.append(anna_nimet)
-    numero += 1
+def kokonaisluku(luku):
+    summa = sum(luku)
 
-for tulostus in kaupungin_nimet:
-    print(f"{tulostus}")
+    return summa
+
+while True:
+    anna_kokonaisluku = input("Anna kokonaisluku: ")
+
+    if anna_kokonaisluku == "":
+        print(f"Yhteensä: {kokonaisluku(lista)}")
+        break
+
+    lista.append(int(anna_kokonaisluku))
+
+
+
+
+
+
+
+
+
+
 
 
