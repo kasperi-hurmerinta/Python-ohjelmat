@@ -1,4 +1,4 @@
-## 5. Tehtävä
+## 6. Tehtävä
 
 def pitsa_lasku(pitsa_hinta, pitsa_halkaisija):
     sentit_metreiksi = pitsa_halkaisija / 100
