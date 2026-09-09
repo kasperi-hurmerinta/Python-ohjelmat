@@ -1,4 +1,4 @@
-## 1. Tehtävä
+## 3. Tehtävä
 
 import mysql.connector
 from geopy.distance import geodesic
