@@ -42,7 +42,9 @@ class Talo:
 
     def aja_hissia(self, hissin_numero, kohdekerros):
 
+
 hissi = Hissi(0, 10)
+talo = Talo(talo_alin_kerros=hissi.alin_kerros, talo_ylin_kerros=hissi.ylin_kerros, hissien_lukumaara=3)
 
 hissi.siirry_kerrokseen(7)
-hissi.siirry_kerrokseen(3)
+talo.aja_hissia(1, 3)
