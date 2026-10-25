@@ -37,14 +37,11 @@ class Talo:
         self.hissien_lukumaara = hissien_lukumaara
 
         for i in range(self.hissien_lukumaara):
-            hissit = Hissi(talo_alin_kerros, talo_ylin_kerros)
-            self.hissien_lista.append(hissit)
+            hissi = Hissi(talo_alin_kerros, talo_ylin_kerros)
+            self.hissien_lista.append(hissi)
 
     def aja_hissia(self, hissin_numero, kohdekerros):
+        self.hissien_lista[hissin_numero].siirry_kerrokseen(kohdekerros)
 
-
-hissi = Hissi(0, 10)
-talo = Talo(talo_alin_kerros=hissi.alin_kerros, talo_ylin_kerros=hissi.ylin_kerros, hissien_lukumaara=3)
-
-hissi.siirry_kerrokseen(7)
-talo.aja_hissia(1, 3)
+talo = Talo(1, 5, 3)
+talo.aja_hissia(0, 4)
