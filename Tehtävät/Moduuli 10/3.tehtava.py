@@ -1,6 +1,4 @@
 ## 3. Tehtävä
-from contextlib import nullcontext
-
 
 class Hissi:
     def __init__(self,  alin_kerros, ylin_kerros):
