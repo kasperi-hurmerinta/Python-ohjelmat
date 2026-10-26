@@ -29,7 +29,7 @@ class Kirja(Julkaisu):
         print(f"{self.julkaisu_tyyppi} : {self.julkaisu_nimi} : {self.kirjoittaja} : {self.sivumaara}")
 
 aku_ankka = Lehti("Lehti", "Aku Ankka", "Aki Hyyppä")
-hytti_nro_6 = Kirja("Kirja", "Hytti n:o 6", "Rosa Liksom", 200)
+hytti_nro_6 = Kirja("Kirja", "Hytti nro 6", "Rosa Liksom", 200)
 
 aku_ankka.tulosta_tiedot()
 hytti_nro_6.tulosta_tiedot()
