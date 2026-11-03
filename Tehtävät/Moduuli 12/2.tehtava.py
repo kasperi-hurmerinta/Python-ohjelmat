@@ -19,6 +19,7 @@ for x in vastaus:
     b = a[0]["description"]
     c = vastaus["main"]
     d = c["temp"]
+    break
 
 
 print(f"Säätila: {b} | Lämpötila: {d} °C")
